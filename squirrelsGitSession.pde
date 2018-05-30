@@ -13,8 +13,8 @@ void setup(){
 }
 
 void draw(){
-  for (int x = 0; x < columns; x++){
-    for(int y = 0; y < columns; y++){
+  for (int x = 1; x < columns; x++){
+    for(int y = 1; y < columns; y++){
       ellipse(
         1.0 * x / columns * screenWidth,
         1.0 * y / rows * screenHeight,
