@@ -8,8 +8,9 @@ void settings(){
 }
 
 void setup(){
-  background(0);
-  fill(255);
+  background(200, 50, 0);
+  fill(255, 50, 0);
+  noStroke();
 }
 
 void draw(){
